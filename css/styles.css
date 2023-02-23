@@ -1,0 +1,40 @@
+/* *{
+    margin: 0;
+    padding: 0; */
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .testimonial {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .testimonial.active {
+    display: flex;
+  }
+  
+  .testimonial-text {
+    padding: 20px;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .testimonial-author {
+    padding: 20px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
